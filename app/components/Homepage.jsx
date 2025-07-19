@@ -1,18 +1,4 @@
-// 'use client';
 
-// import { useSearchParams } from 'next/navigation';
-
-// export default function HomePage() {
-//   const searchParams = useSearchParams();
-//   const keyword = searchParams.get('search') || '';
-
-//   return (
-//     <div className="p-6">
-//       <h1 className="text-2xl font-bold mb-4">Welcome to the Home Page</h1>
-//       <p className="text-gray-700">Search keyword: <strong>{keyword}</strong></p>
-//     </div>
-//   );
-// }
 'use client';
 import { useEffect, useState } from 'react';
 import { db } from '../../lib/firebase';
@@ -60,13 +46,13 @@ export default function HomePage() {
   );
 
   return (
-    <div className="p-4 md:p-8">
+    <div className="p-4 mt-[50px] md:p-8">
       {/* Sliding Offer Banner */}
       <div className="mb-8 overflow-hidden rounded-xl shadow-md">
         <img
           src={banners[bannerIndex]}
           alt={`Offer ${bannerIndex + 1}`}
-          className="w-full h-60 object-cover transition-all duration-500 ease-in-out"
+          className="w-full h-70 object-cover transition-all duration-500 ease-in-out"
         />
       </div>
 
