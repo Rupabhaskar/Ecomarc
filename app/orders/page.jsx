@@ -298,7 +298,7 @@ export default function OrdersPage() {
   }
 
   return (
-    <div className="px-4 sm:px-6 lg:px-10 py-8 max-w-[1600px] mx-auto">
+    <div className="px-4 sm:px-6 lg:px-10 py-8 max-w-[1600px] mx-auto mt-18">
       <h1 className="text-2xl sm:text-3xl font-bold mb-8">Your Orders</h1>
 
       <div className="space-y-8">

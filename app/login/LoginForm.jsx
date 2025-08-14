@@ -106,7 +106,7 @@ export default function LoginForm() {
   };
 
   return (
-    <div className="p-8 max-w-md mx-auto">
+    <div className="p-8 max-w-md mx-auto mt-18">
       <h1 className="text-2xl font-bold mb-4">{isLogin ? 'Login' : 'Sign Up'}</h1>
 
       <input
